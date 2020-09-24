@@ -227,6 +227,7 @@ module.exports = function (u, p, si, d, s, o) {
         var params = {
             userName: userName,
             password: password,
+            sessionId: password ? undefined : sessionId,
             database: database,
             server: rootServer
         };
